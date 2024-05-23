@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "vercel-build": "dotnet publish WeatherForcastTestSwagger/WeatherForcastTestSwagger.csproj -c Release -o WeatherForcastTestSwagger/bin/Release/net8.0/publish"
+  }
+}
