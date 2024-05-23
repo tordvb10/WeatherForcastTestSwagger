@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "WeatherForcastTestSwagger/*.csproj",
+      "use": "vercel-dotnet"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/swagger/(.*)",
+      "dest": "WeatherForcastTestSwagger/swagger/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "WeatherForcastTestSwagger/bin/Release/net8.0/publish/$1"
+    }
+  ]
+}
