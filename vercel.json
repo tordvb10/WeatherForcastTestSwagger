@@ -5,11 +5,5 @@
       "src": "WeatherForcastTestSwagger/*.csproj",
       "use": "vercel-dotnet"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "WeatherForcastTestSwagger/bin/Release/net8.0/publish/WeatherForcastTestSwagger.dll"
-    }
   ]
 }
