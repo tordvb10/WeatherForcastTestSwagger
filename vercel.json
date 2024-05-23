@@ -6,7 +6,6 @@
       "use": "@vercel/dotnet"
     }
   ],
-  "ignore": [".vs/*"],
   "routes": [
     {
       "src": "/(.*)",
