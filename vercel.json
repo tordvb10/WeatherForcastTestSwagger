@@ -9,11 +9,7 @@
   "routes": [
     {
       "src": "/swagger/(.*)",
-      "dest": "WeatherForcastTestSwagger/swagger/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "WeatherForcastTestSwagger/bin/Release/net8.0/publish/$1"
+      "dest": "/WeatherForcastTestSwagger/$1"
     }
   ]
 }
