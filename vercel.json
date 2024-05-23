@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "WeatherForcastTestSwagger/*.csproj",
-      "use": "@vercel/dotnet"
+      "use": "vercel-dotnet"
     }
   ],
   "routes": [
